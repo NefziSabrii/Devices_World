@@ -3,5 +3,5 @@
 cd server
 npx nodemon server &
 
-cd client
+cd ../client
 npm start
