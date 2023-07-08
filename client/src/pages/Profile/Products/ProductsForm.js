@@ -89,7 +89,7 @@ function ProductsForm({
         <Tabs
           defaultActiveKey="1"
           activeKey={selectedTab}
-          onChange={(key) => setSelectedTab(key)}
+          onChange={(key) => setSelectedTab(key) }
         >
           <Tabs.TabPane tab="General" key="1">
             <Form layout="vertical" ref={formRef} onFinish={onFinish}>
